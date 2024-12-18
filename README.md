@@ -24,7 +24,7 @@ cd github-workflows-analysis
 python3 -m venv myenv
 
 # Activate virtual environment
-source venv/bin/activate
+source myenv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
