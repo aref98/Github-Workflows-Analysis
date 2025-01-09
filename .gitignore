@@ -1,5 +1,7 @@
 error_log.txt
 workflows_data.parquet
 myenv/
+data/
+data-raw
 .DS_Store
 

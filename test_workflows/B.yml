@@ -1,0 +1,11 @@
+on:
+  push:
+    branches: [main, dev, feature/*]
+    paths: ['**.py', '**.yaml']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Example step
+        run: echo "Hello from Variation B!"
