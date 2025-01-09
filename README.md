@@ -4,7 +4,7 @@
 This replication package provides the necessary files and instructions to reproduce the analysis of this research.
 
 ## Data Source
-- Guillaume’s dataset
+- A dataset of GitHub Actions workflow histories - https://zenodo.org/records/13985548
 
 ## Setup Instructions
 1. Create and activate a virtual environment:
