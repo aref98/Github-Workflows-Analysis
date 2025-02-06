@@ -48,7 +48,8 @@ The project repository is organized as follows:
    ├── README.md         # Project documentation
    ├── requirements.txt  # Project dependencies
    └── myenv/            # Python virtual environment
+   ```
 
 
-. **Notes:**
-. **Project Development: This project is still in progress.**
+**Notes:**
+   Project Development: This project is still in progress.
