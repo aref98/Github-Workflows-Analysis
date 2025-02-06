@@ -1,41 +1,50 @@
-# Replication Package
+# Replication Package: GitHub Actions Workflows Analysis
 
-## Purpose
-This replication package provides the necessary files and instructions to reproduce the analysis of this research.
+## Overview
+
+This replication package supports our ongoing research on the evolution of **GitHub Actions workflows**. Our current focus is on extracting path/value pairs from workflow YAML files to identify key features such as triggers, environment variables, matrix strategies, and reusable workflows. These data will later serve as a basis for analyzing workflow concepts, size, and complexity over time.
 
 ## Data Source
-- A dataset of GitHub Actions workflow histories - https://zenodo.org/records/13985548
+
+- **GitHub Actions Workflow Histories**: Based on the dataset available on [Zenodo](https://zenodo.org/records/13985548).
 
 ## Setup Instructions
-1. Create and activate a virtual environment:
+
+Follow the steps below to set up the project environment:
+
+1. **Create a Project Directory**
+
    ```bash
-   pip install virtualenv
-   virtualenv myenv
-   source myenv/bin/activate
+   mkdir github-workflows-analysis
+   cd github-workflows-analysis
 
-### Summary of Commands
-Here’s a quick reference for all the commands we’ve discussed:
+2. **Set Up a Virtual Environment**
 
-# Create project directory
-mkdir github-workflows-analysis
-cd github-workflows-analysis
-
-# Set up virtual environment (on macOs)
 python3 -m venv myenv
 
-# Activate virtual environment
-source myenv/bin/activate
+# Activate the environment:
+source myenv/bin/activate    # macOS/Linux
+myenv\Scripts\activate       # Windows
 
-# Install dependencies
+3. **Install Dependencies**
+
 pip install -r requirements.txt
 
-# Directory Structure
-# Your project directory should look something like this if you followed the given instructions:
+4. **Repository Structure**
+The project repository is organized as follows:
+
+
 github-workflows-analysis/
-├── data-raw/         # Folder for raw datasets (e.g., Guillaume’s dataset)
-├── data/             # Folder for processed/generated datasets
-├── notebooks/        # Folder for Jupyter notebooks
+├── data-raw/         # Raw datasets (e.g., Guillaume's dataset)
+├── data/             # Processed data (e.g., extracted paths and values)
+├── notebooks/        # Jupyter notebooks for data extraction and analysis
 ├── README.md         # Project documentation
-├── requirements.txt  # List of dependencies
-└── venv/             # Virtual environment folder
+├── requirements.txt  # Project dependencies
+└── myenv/            # Python virtual environment
+
+
+Notes
+Project Development: This project is still in progress. Future updates will include advanced analyses and, eventually, a comparative study with Gitea workflows.
+Further Information: Additional documentation and detailed instructions (e.g., on database design and analysis conventions) will be provided as the project evolves.
+Feedback and Contributions: For any questions, suggestions, or contributions, please feel free to open an issue in the repository.
 
