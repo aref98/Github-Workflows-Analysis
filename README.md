@@ -20,20 +20,24 @@ Follow the steps below to set up the project environment:
 
 2. **Set Up a Virtual Environment**
 
-python3 -m venv myenv
+   ```bash
+   python3 -m venv myenv
 
 # Activate the environment:
+
+```bash
 source myenv/bin/activate    # macOS/Linux
 myenv\Scripts\activate       # Windows
 
 3. **Install Dependencies**
-
+```bash
 pip install -r requirements.txt
+
 
 4. **Repository Structure**
 The project repository is organized as follows:
 
-
+```bash
 github-workflows-analysis/
 ├── data-raw/         # Raw datasets (e.g., Guillaume's dataset)
 ├── data/             # Processed data (e.g., extracted paths and values)
