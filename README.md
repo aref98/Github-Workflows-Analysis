@@ -52,4 +52,4 @@ The project repository is organized as follows:
 
 
 **Notes:**
-   Project Development: This project is still in progress.
+   This project is still in progress.
