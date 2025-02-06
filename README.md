@@ -23,32 +23,32 @@ Follow the steps below to set up the project environment:
    ```bash
    python3 -m venv myenv
 
-# Activate the environment:
+3. **Activate the environment**
 
-```bash
-source myenv/bin/activate    # macOS/Linux
-myenv\Scripts\activate       # Windows
+   ```bash
+   source myenv/bin/activate    # macOS/Linux
+   myenv\Scripts\activate       # Windows
+
 
 3. **Install Dependencies**
-```bash
-pip install -r requirements.txt
+
+   ```bash
+   pip install -r requirements.txt
 
 
 4. **Repository Structure**
+
 The project repository is organized as follows:
 
-```bash
-github-workflows-analysis/
-├── data-raw/         # Raw datasets (e.g., Guillaume's dataset)
-├── data/             # Processed data (e.g., extracted paths and values)
-├── notebooks/        # Jupyter notebooks for data extraction and analysis
-├── README.md         # Project documentation
-├── requirements.txt  # Project dependencies
-└── myenv/            # Python virtual environment
+   ```bash
+   github-workflows-analysis/
+   ├── data-raw/         # Raw datasets (e.g., Guillaume's dataset)
+   ├── data/             # Processed data (e.g., extracted paths and values)
+   ├── notebooks/        # Jupyter notebooks for data extraction and analysis
+   ├── README.md         # Project documentation
+   ├── requirements.txt  # Project dependencies
+   └── myenv/            # Python virtual environment
 
 
-Notes
-Project Development: This project is still in progress. Future updates will include advanced analyses and, eventually, a comparative study with Gitea workflows.
-Further Information: Additional documentation and detailed instructions (e.g., on database design and analysis conventions) will be provided as the project evolves.
-Feedback and Contributions: For any questions, suggestions, or contributions, please feel free to open an issue in the repository.
-
+**Notes:**
+**Project Development: This project is still in progress.**
